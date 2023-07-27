@@ -1,0 +1,277 @@
+{
+    "intents": [
+      {
+        "tag": "welcome",
+        "patterns": [
+          "Hyy",
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Good morning!",
+          "Good afternoon!",
+          "Good evening!"
+        ],
+        "responses": [
+          
+          "How can I help you? You can say New Order or Track Order",
+          "What can I do for you today? You can say New Order or Track Order",
+          "How can I assist? You can say New Order or Track Order",
+          "How may I help you? Feel free to say New Order or Track Order",
+          "What can I do for you? You have the options of New Order or Track Order",
+          "I'm here to assist you. Just let me know if you want to place a New Order or Track Order",
+          "Need any help? You can choose between New Order or Track Order",
+          "How can I be of service? Please let me know if you'd like to make a New Order or Track Order",
+          "Is there anything specific you need help with? You can either place a New Order or Track Order"
+          
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "new order",
+        "patterns": [
+          "New order",
+          "New order plz",
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "What items are in stock?",
+          "Can you tell me about your product selection?",
+          "Which products do you carry?",
+          "What do you have available?",
+          "I'm interested in your offerings. What items are there?",
+          "Could you please list the items you sell?",
+          "What's on the menu?",
+          "What types of products do you offer?",
+          "Which items do you have for sale?",
+          "What's in your inventory?",
+          "Can you provide information about the items you offer?",
+          "I'm curious about the products you sell. Could you tell me more?",
+          "Tell me about your merchandise.",
+          "What can I find in your store?",
+          "I'd like to know what kind of products you have."
+        ],
+        "responses": [
+          "Ok, starting a new order. You can say things like I want two Pizzas and one Apple Pie. Make sure to specify a quantity for every food item! Also, we have only the following items on our menu: Hamburger, Hot dog, Pizza, French Fries, Chicken nuggets, Pancakes, Nachos, Apple pie, and Donuts.",
+          "Starting new order. Specify food items and quantities. For example, you can say, I would like to order two Pizzas and one Apple Pie. Also, we have only the following items on our menu: Hamburger, Hot dog, Pizza, French Fries, Chicken nuggets, Pancakes, Nachos, Apple pie, and Donuts."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "How would you take payment",
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal",
+          "You can pay through Cash On Delivery"
+        ]
+      },
+      {
+        "tag": "order complete",
+        "patterns": [
+          "Nope",
+          "That's all I needed",
+          "Done ordering it",
+          "Place an order",
+          "Done",
+          "That's it?"
+        ],
+        "responses": [
+          "Awsome your order has been placed.Here is your order id 41",
+          "Great news! Your order has been successfully placed. Your order ID is 23.",
+          "Congratulations! You've successfully placed your order. The order ID is 11.",
+          "Hooray! Your order has been placed. Here's your order ID: 32.",
+          "Fantastic! You've successfully placed an order. Your order ID is 12.",
+          "Congratulations on placing your order! Your order ID is 20.",
+          "You did it! Your order has been placed, and your order ID is 13.",
+          "Wonderful! Your order has been confirmed with the order ID 5.",
+          "Excellent! We've received your order. The order ID is 7.",
+          "Brilliant! Your order has been processed. The order ID is 23.",
+          "Awesome news! Order successfully placed. Order ID: 17.",
+          "Fantastic job! Your order is confirmed, and the order ID is 25.",
+          "Congratulations, your order is complete! Order ID: 30.",
+          "We're thrilled to let you know that your order has been placed. The order ID is 28.",
+          "Good news! Your order has been received and assigned the order ID 14.",
+          "Pat yourself on the back! Your order has been placed, and your order ID is 34."
+        ]
+      },
+      {
+        "tag": "order remove",
+        "patterns": [
+          "No chicken nuggets and pizza in my order. please remove",
+          "Kindly take apple pie and donuts off the order, please.",
+          "I'd like to exclude pav bhaji and samosa, please",
+          "I no longer want the hamburger in my order, please remove it",
+          "Kindly exclude the rava dosa from my order",
+          "I would like to remove the pizza from my order",
+          "Please take the pancakes off my order",
+          "delete nachos from my order",
+          "hey, plz get rid of french fries and hot dog",
+          "I don't want apple pie",
+          "remove pizza from my order",
+          "can you remove hot dog?"
+        ],
+        "responses": [
+          "Anything else?",
+          "Order update: Added, anything else?",
+          "Your purchase has been updated. Wana add something more?"
+        ]
+      },
+      {
+        "tag": "track order",
+        "patterns": [
+          "check the status of my order",
+          "track order",
+          "track existing order",
+          "Track Order",
+          "Order Tracking",
+          "Follow Order",
+          "Trace Order",
+          "Locate Order",
+          "Monitor Order",
+          "Check Order Status",
+          "Find My Order",
+          "View Order Progress",
+          "Order Location",
+          "Order Shipment Tracking",
+          "Keep Tabs on Order",
+          "Track My Purchase",
+          "Order Delivery Status",
+          "Keep an Eye on My Order",
+          "Order Update",
+          "Order Status Check",
+          "Order Progress Report",
+          "Order Pathway",
+          "Order Journey Tracking"
+        ],
+        "responses": [
+          "Definitely. What is your order id?",
+          "Sure. Please enter your order id.",
+          "Definitely. What is your order id?"
+        
+        ]
+      },
+      {
+        "tag": "order add",
+        "patterns": [
+          "Give me 2 plates of hamburger, one apple ie",
+          "I'd like to order two plates of pancakes,  one nachos, and 3 donuts, please.",
+          "Can you please get me two servings of chicken nuggets, one pizza, and one french fries?",
+          "Please prepare 2 portions of chicken nuggets, along with one pizza and 1 nachos for me",
+          "3 hamburger, 2 pizza, 1 hot dog",
+          "Can I get 2 plates of pancakes, along with one pizza and 1 nachos?",
+          "I'll take 2 orders of apple pie, one pizza, and 1 french fries, if you don't mind",
+          "I want 1 nachos, 2 chicken nuggets and one donuts, do it fast plz",
+          "In addition, add 1 hot dog and 2 pizza",
+          "Moreover, include 2 apple pie",
+          "Also, please give me 2 french fries",
+          "Additionally, I'd like 2 pizza.",
+          "2 pizza and ok lets add one donuts too",
+          "3 nachos",
+          "Oh yes, add one chicken nuggets as well"  
+        ],
+        "responses": [
+           "Anything else?",
+           "Order update: Added, anything else?",
+           "Your purchase has been updated. Wana add something more?",
+           "New item added to your order. Will you add anything"
+           
+        ]
+      },
+      {
+        "tag": "order tracking",
+        "patterns": [
+          "order id 12",
+          "44",
+          "order id is 15",
+          "30",
+          "1",
+          "5",
+          "order is 10",
+          "I have an order, and its ID is 12.",
+          "The order I placed has been assigned the ID 41.",
+          "My order has been processed, and the order ID is 22.",
+          "Just to update you, my order ID is 10.",
+          "I received a confirmation with my order ID being 1.",
+          "5 is the unique identifier for my order.",
+          "The order I made has been assigned ID 13.",
+          "In the system, my order has been tagged with ID 15.",
+          "You can find my order using the ID 30.",
+          "I can track my order using the ID 41.",
+          "If you need to reference my order, it's under ID 6.",
+          "I can provide you with my order ID, which is 17.",
+          "I received a confirmation email with the order ID 23.",
+          "To identify my order, you can use the code 34.",
+          "The unique reference number for my order is 1.",
+          "Presenting my order ID, which is 2.",
+          "I have my order ID ready for you: 3.",
+          "Here's the order ID: 5.",
+          "Allow me to share my order ID - it's 9.",
+          "You can find my order using this ID: 22.",
+          "I've got the order ID right here: 25.",
+          "For your reference, the order ID is 35.",
+          "Please take note of the order ID: 40.",
+          "Here it is, my order ID is 32.",
+          "In case you need it, my order ID is 45.",
+          "Feel free to use my order ID, which is 50.",
+          "You'll find my order with this ID: 11.",
+          "I'd like to share my order ID - it's 33.",
+          "Kindly make a note of my order ID: 44.",
+          "This is important: my order ID is 4."
+        ],
+        "responses": ["Your order is currently in transit.",
+          "The status of your order is 'in transaction'.",
+          "Your order is in the process of being delivered.",
+          "We have initiated the transaction for your order.",
+          "Your order is currently being processed for delivery.",
+          "The transaction for your order is underway.",
+          "Your order is in the middle of the delivery process.",
+          "We have begun processing the transaction for your order.",
+          "Your order is on its way to you.",
+          "At the moment, your order is in transit.",
+          "The transaction for your order is in progress.",
+          "Your order is currently en route.",
+          "The delivery process for your order is underway.",
+          "We have started the transaction process for your order.",
+          "Your order is currently being shipped.",
+          "Congratulations, your order has been placed!",
+          "Good news! Your order is now confirmed.",
+          "Hooray! Your order has been successfully placed.",
+          "Your order is all set and has been placed.",
+          "Great! We've received your order and it's confirmed.",
+          "Thank you for placing your order. It's confirmed.",
+          "Your order has been processed and placed successfully.",
+          "We've just placed your order. Thank you!",
+          "Mission accomplished! Your order has been placed.",
+          "Success! Your order is now officially placed.",
+          "You're all set! Your order has been placed.",
+          "Congratulations! Your order placement is complete.",
+          "Your order request has been accepted and placed.",
+          "Order placed successfully. Thank you for choosing us.",
+          "Done and done! Your order has been placed."
+           
+        ]
+      }
+    ]
+  }
+  
