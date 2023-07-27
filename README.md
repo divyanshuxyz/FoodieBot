@@ -29,3 +29,5 @@ Ready to embark on a delightful culinary journey with FoodieBot? Head to our Git
 FoodieBot is constantly evolving, with updates and new features being regularly added to enhance your food ordering experience. We appreciate your valuable feedback and contributions to make FoodieBot even better.
 
 Let FoodieBot take care of your food cravings while you sit back and enjoy the seamless food ordering experience it offers. Happy ordering!
+
+Run the file app_tkinter.py for using the bot.
